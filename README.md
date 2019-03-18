@@ -1,4 +1,4 @@
-![Screenshot](https://i.imgur.com/uFaQxRi.png)
+![Screenshot](https://i.imgur.com/R8lNe4V.png)
 
 # Motto
 An advanced, versatile, and easy-to-use mastering template for Renoise.

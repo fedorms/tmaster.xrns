@@ -1,4 +1,4 @@
-![Screenshot](https://forum.renoise.com/uploads/default/original/2X/2/2cc0d5829bdd2b4ee75a89155f9ce54802459eae.png)
+![Screenshot](https://i.imgur.com/uFaQxRi.png)
 
 # Motto
 An advanced, versatile, and easy-to-use mastering template for Renoise.
@@ -9,6 +9,7 @@ Advanced mastering techniques are indeed possible in Renoise, I made a project f
 Note: The "M+S" track's post-processing bus is referred to "Mst" rather than "Sum", and carries its own seperate color.
 
 # Features
+* Renoise-native functionality, guaranteeing cross-platform compatibility.
 * Easy to use drag-and-drop functionality.
 * Autoseek, oversampling, and high-quality sinc interpolation enabled. Scroll with ease.
 * Mid/side signal processing.
@@ -20,6 +21,8 @@ Note: The "M+S" track's post-processing bus is referred to "Mst" rather than "Su
 * A "Mono Tester" device that allows you to play your mix in mono to simulate non-directional listening environments.
 
 # Usage
+* Use on any Renoise 3.1-compatible platform.
+* Compatible with Renoise 2.7, 2.8, 3.0.
 * Just drag-and-drop.
 * Add all DSP effects and devices before devices marked with a **#** or the effects will not work.
 * Use 24-bit or 32-bit renders to have low noise floors. This is crucial when processing dynamics.

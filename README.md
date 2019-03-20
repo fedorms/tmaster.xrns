@@ -17,7 +17,7 @@ Note: The "M+S" track's post-processing bus is referred to "Mst" rather than "Su
 * An easily soloable reference track to quickly compare your work.
 * Project internals and processing hidden from plain sight.
 * Default effects such as a limiter and exciter in the "master".
-* 8n butterworth digital high-pass filters, 2x oversampled, on the mid and side to get rid of unwanted frequencies.
+* Included 8n butterworth high-pass filters on the mid and side channels to get rid of undesired frequencies.
 * A "Mono Tester" device that allows you to play your mix in mono to simulate non-directional listening environments.
 
 # Usage
@@ -27,7 +27,11 @@ Note: The "M+S" track's post-processing bus is referred to "Mst" rather than "Su
 * Add all DSP effects and devices before devices marked with a **#** or the effects will not work.
 * Use 24-bit or 32-bit renders to have low noise floors. This is crucial when processing dynamics.
 * You can work solely from the Mixing and Sampling tabs, with minimal mouse involvement.
+* Use of the Bus Compressor over the regular Compressor device is recommended.
 * **Mastering is not a substitute for a good mix!**
+
+# Limitations
+The regular Compressor device is not able to process side signals. Use the Bus Compressor instead if that is desired.
 
 # Latency
 The standard project introduces has no latency of its own. 
@@ -40,4 +44,4 @@ DSP effects and devices that introduce latency:
 * Distortion with oversampling enabled (0.34 ms)
 
 # Licensing
-As of writing this, I am releasing this project file to the public domain.
+As of the current revision, the project herein is released to the public domain.

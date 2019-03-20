@@ -22,7 +22,7 @@ Note: The "M+S" track's post-processing bus is referred to "Mst" rather than "Su
 
 # Usage
 * Use on any Renoise 3.1-compatible platform.
-* Safely convertable to 3.0. Convertable to 2.7, 2.8 with changes.
+* Safely convertible to 3.0. Convertible to 2.7, 2.8 with changes.
 * Just drag-and-drop.
 * Add all DSP effects and devices before devices marked with a **#** or the effects will not work.
 * Use 24-bit or 32-bit renders to have low noise floors. This is crucial when processing dynamics.
@@ -34,7 +34,7 @@ Note: The "M+S" track's post-processing bus is referred to "Mst" rather than "Su
 The regular Compressor device is not able to process side signals. Use the Bus Compressor instead if that is desired.
 
 # Latency
-The standard project introduces has no latency of its own. 
+The standard project has no latency of its own. 
 
 DSP effects and devices that introduce latency:
 * Compressor (2 ms)

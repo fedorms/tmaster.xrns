@@ -30,7 +30,14 @@ Note: The "M+S" track's post-processing bus is referred to "Mst" rather than "Su
 * **Mastering is not a substitute for a good mix!**
 
 # Latency
-The total latency of the standard project file is 0.34 ms. Approximately 5 ms should be expected in typical projects.
+The standard project introduces has no latency of its own. 
+
+DSP effects and devices that introduce latency:
+* Compressor (2 ms)
+* Bus Compressor (1 ms)
+* Gate (1 ms)
+* Analog/Digital filter with any oversampling option enabled (0.34 ms)
+* Distortion with oversampling enabled (0.34 ms)
 
 # Licensing
 As of writing this, I am releasing this project file to the public domain.
